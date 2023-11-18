@@ -3,7 +3,7 @@
 
 # Raspberry Pi Backup Utility
 <p align="center">
-<img src='https://raw.githubusercontent.com/barisalby/gist/main/images/Raspberry Pi Backup Utility/2rw95-hwju0.gif'>
+<img style='width: 100% !important' src='https://raw.githubusercontent.com/barisalby/gist/main/images/Raspberry Pi Backup Utility/2rw95-hwju0.gif'>
 </p>
 
 Designed specifically for Raspberry Pi devices, this backup program provides gzip-powered instant compression when creating images. This allows you to effectively compress and backup disk images of your Raspberry Pi systems. Furthermore, this tool supports Debian Bookworm as well as all other distributions.
@@ -101,7 +101,7 @@ Choose 1-3 [1]:
 Add the following line at the bottom of the displayed comment lines. \
 This line means run the relevant script at 3 AM on the first day of every month.
 ```bash
-0 3 1 * * sudo sh rpi_backup_utility.sh
+0 3 1 * * sudo sh /path/to/rpi_backup_utility.sh
 ```
 
 ### Simple Crontab Scheme
