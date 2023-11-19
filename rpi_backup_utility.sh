@@ -48,7 +48,7 @@ echo "\e[1;32m⠀⢀⣠⣤⣶⣶⣶⣤⣄⠀⠀⣀⣤⣶⣶⣶⣤⣄⡀⠀
 "
     echo "\e[0;37mStarting backup process on \e[1;32m~ \e[1;36m$HARD_DRIVE\e[0m "
     echo "\e[0;37mThis process can take up to several hours depending on the system size."
-    echo "\e[1;31mDON'T WRITE ANY DATA TO THE SYSTEM AND DON'T PULL OF BACKUP STORAGE DURING THIS TIME!\e[0m"
+    echo "\e[1;31mDON'T WRITE ANY DATA TO THE SYSTEM AND DON'T PULL OFF BACKUP STORAGE DURING THIS TIME!\e[0m"
     createImage
     sleep 3
     checkImages
