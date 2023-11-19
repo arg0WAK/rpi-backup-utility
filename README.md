@@ -75,7 +75,7 @@ ENTER HARD DRIVE MOUNT POINT: ~ (ex: /dev/sda1):
 ````
 Sit back and the rest of the process will start automatically. \
 \
-**DON'T WRITE ANY DATA TO THE SYSTEM AND DON'T PULL OF BACKUP STORAGE DURING THIS TIME!**\
+**DON'T WRITE ANY DATA TO THE SYSTEM AND DON'T PULL OFF BACKUP STORAGE DURING THIS TIME!**\
 
 At the end of the process you will get a like below type result output.
 ```bash
