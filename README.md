@@ -1,7 +1,5 @@
 
-<a class="filter" href="https://choosealicense.com/licenses/mit/">
-<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
-</a>
+<a class="filter" href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
 
 <h1 class='filter'>Raspberry Pi Backup Utility</h1>
 
