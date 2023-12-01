@@ -2,9 +2,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 # Raspberry Pi Backup Utility
-<p align="center">
-<img style='width: 100% !important' src='https://raw.githubusercontent.com/barisalby/gist/main/images/Raspberry Pi Backup Utility/2rw95-hwju0.gif'>
-</p>
+ ![Raspberry Pi Backup Utility Bash Screen](https://raw.githubusercontent.com/barisalby/gist/main/images/Raspberry%20Pi%20Backup%20Utility/2rw95-hwju0.gif)
 
 Designed specifically for Raspberry Pi devices, this backup program provides gzip-powered instant compression when creating images. This allows you to effectively compress and backup disk images of your Raspberry Pi systems. Furthermore, this tool supports Debian Bookworm as well as all other distributions.
 
