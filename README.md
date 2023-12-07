@@ -3,7 +3,7 @@
 
 <h1 class='filter'>Raspberry Pi Backup Utility</h1>
 
-![Raspberry Pi Backup Utility Bash Screen](https://barisalby.github.io/gist/images/Raspberry%20Pi%20Backup%20Utility/2rw95-hwju0.gif)
+![Raspberry Pi Backup Utility Bash Screen](https://arg0wak.github.io/gist/images/Raspberry%20Pi%20Backup%20Utility/2rw95-hwju0.gif)
 
 Designed specifically for Raspberry Pi devices, this backup program provides gzip-powered instant compression when creating images. This allows you to effectively compress and backup disk images of your Raspberry Pi systems. Furthermore, this tool supports Debian Bookworm as well as all other distributions.
 
@@ -42,7 +42,7 @@ Dependent packages are given below. These are the packages that come installed i
 
 First of all clone the repo to your device using the link below.
 ```bash
-  $ git clone git@github.com:barisalby/rpi-backup-utility.git
+  $ git clone git@github.com:arg0WAK/rpi-backup-utility.git
   $ cd rpi-backup-utility
 ```
 
