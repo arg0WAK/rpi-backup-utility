@@ -1,7 +1,7 @@
 
-<a class="filter" href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
+<a class="remove" href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
 
-<h1 class='filter'>Raspberry Pi Backup Utility</h1>
+<h1 class='remove'>Raspberry Pi Backup Utility</h1>
 
 ![Raspberry Pi Backup Utility Bash Screen](https://arg0wak.github.io/gist/images/Raspberry%20Pi%20Backup%20Utility/2rw95-hwju0.gif)
 
