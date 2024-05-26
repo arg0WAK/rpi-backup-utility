@@ -1,15 +1,21 @@
+<span>
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
+  </a>
+</span>
 
-<a class="remove" href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
+<h1>Raspberry Pi Backup Utility</h1>
 
-<h1 class='remove'>Raspberry Pi Backup Utility</h1>
-
-![Raspberry Pi Backup Utility Bash Screen](https://arg0wak.github.io/gist/images/Raspberry%20Pi%20Backup%20Utility/2rw95-hwju0.gif)
+![Raspberry Pi Backup Utility Bash Screen](https://arg0wak.github.io/gist/images/Raspberry%20Pi%20Backup%20Utility/2FCO7024XSO5VIC.jpg)
 
 Designed specifically for Raspberry Pi devices, this backup program provides gzip-powered instant compression when creating images. This allows you to effectively compress and backup disk images of your Raspberry Pi systems. Furthermore, this tool supports Debian Bookworm as well as all other distributions.
 
 Script is coded thinking Crontab installation compability. After once introducing your backup device, no further input is expected from you. After the process is complete, it outputs a result and unmounts your device for security purposes. At the script each start, it checks whether the device is connected or not, and if there is no device on the previously connected slot, you will be prompted to identify your current backup device. Unlike the standard `dd` image creation method, it performs instant `gzip compression` every `128K blocks`. In the example data, a `58 GB` image is reduced to about `3 GB`. Loss tests were performed and successful results were obtained. Since multiple backup files over time are likely to cause storage space problems in your backup path, the oldest `2` backup files are deleted from the hard disk depending on the creation date every `5` backups. If you want to customize this value, please check **Warnings** section.
 
 Also see the end of this article for Cron installation instructions.
+
+## 👀 Preview
+![Raspberry Pi Backup Utility Bash Screen](https://arg0wak.github.io/gist/images/Raspberry%20Pi%20Backup%20Utility/2rw95-hwju0.gif)
 
 ## 🚨 Warnings
 
