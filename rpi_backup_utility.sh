@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SYSTEM="/dev/mmcblk0"
-HARD_DRIVE_TEMP="/tmp/ARG0-HDSWAP"
+HARD_DRIVE_TEMP="/etc/rpu/ARG0-HDSWAP"
 BACKUP_DIR="/mnt/mass/"
 BACKUP_COUNT=5
 EXPECTED_COUNT=2
