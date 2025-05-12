@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SYSTEM="/dev/mmcblk0"
-HARD_DRIVE_TEMP="/etc/rpu/ARG0-HDSWAP"
+HARD_DRIVE_TEMP="/etc/rpu/ARG0-HDSWAP.bin"
 BACKUP_DIR="/mnt/mass/"
 BACKUP_COUNT=5
 EXPECTED_COUNT=2
@@ -14,7 +14,12 @@ RED='\e[1;31m'
 CYAN='\e[1;36m'
 RESET='\e[0m'
 
+
 checkHARD_DRIVE() {
+    if [ ! -d "$(dirname "$HARD_DRIVE_TEMP")" ]; then
+        sudo mkdir -p "$(dirname "$HARD_DRIVE_TEMP")"
+    fi
+
     if [ -f "$HARD_DRIVE_TEMP" ]; then
         HARD_DRIVE=$(cat "$HARD_DRIVE_TEMP")
         if ! mount | grep -q "$HARD_DRIVE" && lsblk -o NAME | grep -q "$HARD_DRIVE"; then
